@@ -88,13 +88,13 @@ class App extends Component {
         <br />
         <label style={{ color: 'white' }}>Max Rotation</label><input name="wheelRotation" type="number" value={this.state.rotation} onChange={(e) => { this.onWheelRotationChange(e) }} />
         <br />
-        <div style={{ position: 'relative', top: '20px', }}>
+        <div style={{ position: 'relative', top: '20px', left: "100px" }}>
           <Wheel axis={0} rotation={this.state.rotation} />
         </div>
-        <div style={{ position: 'relative', top: '-300px', left: "500px", 'marginLeft': '50px' }}>
+        <div style={{ position: 'relative', top: '-300px', left: "600px", 'marginLeft': '50px' }}>
           <ShifterBase />
         </div>
-        <div style={{ position: 'relative', top: '-170px', left: "30px", 'marginLeft': '50px' }}>
+        <div style={{ position: 'relative', top: '-600px', left: "900px", 'marginLeft': '50px' }}>
           <Pedals />
         </div>
 
