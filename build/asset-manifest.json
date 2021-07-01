@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stream-racing-wheel/static/css/main.b44067e2.chunk.css",
+    "main.js": "/stream-racing-wheel/static/js/main.a2f635b8.chunk.js",
+    "main.js.map": "/stream-racing-wheel/static/js/main.a2f635b8.chunk.js.map",
+    "runtime-main.js": "/stream-racing-wheel/static/js/runtime-main.2ecfeb33.js",
+    "runtime-main.js.map": "/stream-racing-wheel/static/js/runtime-main.2ecfeb33.js.map",
+    "static/js/2.8c0f546b.chunk.js": "/stream-racing-wheel/static/js/2.8c0f546b.chunk.js",
+    "static/js/2.8c0f546b.chunk.js.map": "/stream-racing-wheel/static/js/2.8c0f546b.chunk.js.map",
+    "index.html": "/stream-racing-wheel/index.html",
+    "precache-manifest.9da1a4be0bba223bb27993e43b379268.js": "/stream-racing-wheel/precache-manifest.9da1a4be0bba223bb27993e43b379268.js",
+    "service-worker.js": "/stream-racing-wheel/service-worker.js",
+    "static/css/main.b44067e2.chunk.css.map": "/stream-racing-wheel/static/css/main.b44067e2.chunk.css.map",
+    "static/js/2.8c0f546b.chunk.js.LICENSE.txt": "/stream-racing-wheel/static/js/2.8c0f546b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ecfeb33.js",
+    "static/js/2.8c0f546b.chunk.js",
+    "static/css/main.b44067e2.chunk.css",
+    "static/js/main.a2f635b8.chunk.js"
+  ]
+}
