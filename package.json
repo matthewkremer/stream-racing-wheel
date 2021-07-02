@@ -1,6 +1,6 @@
 {
     "name": "stream-racing-wheel",
-    "homepage": "https://joetex.github.io/stream-racing-wheel/",
+    "homepage": "./",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -13,13 +13,43 @@
         "react-gamepad": "^1.0.3",
         "react-scripts": "^3.4.0"
     },
+    "main": "src/electron.js",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build",
+        "dist-win": "electron-builder --win",
+        "dist-mac": "electron-builder --mac"
+    },
+    "build": {
+        "appId": "com.mattkremer.streamracingwheel",
+        "dmg": {
+            "contents": [
+                {
+                    "x": 110,
+                    "y": 150
+                },
+                {
+                    "x": 240,
+                    "y": 150,
+                    "type": "link",
+                    "path": "/Applications"
+                }
+            ]
+        },
+        "linux": {
+            "target": [
+                "AppImage",
+                "deb"
+            ]
+        },
+        "win": {
+            "target": "squirrel",
+            "icon": "build/icon.ico"
+        }
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -37,6 +67,9 @@
         ]
     },
     "devDependencies": {
+        "electron": "^13.1.5",
+        "electron-builder": "^22.11.7",
+        "electron-builder-squirrel-windows": "^22.11.8",
         "gh-pages": "^2.1.1"
     }
 }
